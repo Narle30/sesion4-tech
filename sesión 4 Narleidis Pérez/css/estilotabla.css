@@ -1,0 +1,48 @@
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Fila con color rosado */
+tr {
+    background-color: #f9c6d7; /* Rosado claro */
+}
+
+/* Estilo para las imágenes */
+img {
+    height: 100px;
+    width: 100px;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #ff4d88; /* Rosado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff3385; /* Rosado más intenso */
+}
+
+/* Estilo cuando el producto ha sido comprado */
+tr.comprado {
+    background-color: #ffb3d9; /* Rosado más suave al comprar */
+}
+
+/* Opcional: Añadir un pequeño efecto visual */
+button:active {
+    transform: scale(0.98);
+}
